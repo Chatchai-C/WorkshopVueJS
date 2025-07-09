@@ -21,7 +21,7 @@
                   <v-col cols="4">
                       <v-card class="profile-card">
                           <v-img
-                              src="@/assets/profile.jpg"
+                              src="@/assets/aboutme/profile.jpg"
                               height="420px"
                               cover
                           ></v-img>
@@ -250,27 +250,27 @@ export default {
           ],
           galleryImages: [
               {
-                  src: require("@/assets/xiao.jpg"),
+                  src: require("@/assets/aboutme/xiao.jpg"),
                   alt: "Xiao",
               },
               {
-                  src: require("@/assets/cursor.jpg"),
+                  src: require("@/assets/aboutme/cursor.jpg"),
                   alt: "Cursor",
               },
               {
-                  src: require("@/assets/noa.webp"),
+                  src: require("@/assets/aboutme/noa.webp"),
                   alt: "Noa",
               },
               {
-                  src: require("@/assets/shizuku.webp"),
+                  src: require("@/assets/aboutme/shizuku.webp"),
                   alt: "Shizuku",
               },
               {
-                  src: require("@/assets/vscode.png"),
+                  src: require("@/assets/aboutme/vscode.png"),
                   alt: "VScode",
               },
               {
-                  src: require("@/assets/emilia.jpg"),
+                  src: require("@/assets/aboutme/emilia.jpg"),
                   alt: "Emilia",
               },
           ],
@@ -283,23 +283,23 @@ export default {
           games: [
               {
                   name: "Genshin Impact",
-                  img: require("@/assets/genshin.jpeg"),
+                  img: require("@/assets/aboutme/genshin.jpeg"),
               },
               {
                   name: "Valorant",
-                  img: require("@/assets/valo.jpg"),
+                  img: require("@/assets/aboutme/valo.jpg"),
               },
               {
                   name: "Minecraft",
-                  img: require("@/assets/mancraft.png"),
+                  img: require("@/assets/aboutme/mancraft.png"),
               },
               {
                   name: "Delta Force",
-                  img: require("@/assets/delta.png"),
+                  img: require("@/assets/aboutme/delta.png"),
               },
               {
                   name: "Osu!",
-                  img: require("@/assets/osu.png"),
+                  img: require("@/assets/aboutme/osu.png"),
               },
           ],
       };
@@ -309,7 +309,7 @@ export default {
 
 <style scoped>
 .aboutme-background {
-  background-image: url("@/assets/lake.webp");
+  background-image: url("@/assets/aboutme/lake.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -446,14 +446,14 @@ export default {
 /* Individual bubble animations */
 .bubble-img-0 {
   left: 100px;
-  top: 60px;
+  top: 80px;
   animation: float 6s ease-in-out infinite;
   animation-delay: 0s;
 }
 
 .bubble-img-1 {
   left: 250px;
-  top: 400px;
+  top: 600px;
   animation: floatReverse 8s ease-in-out infinite,
       drift 10s ease-in-out infinite;
   animation-delay: 1s, 0.5s;
@@ -468,7 +468,7 @@ export default {
 
 .bubble-img-3 {
   right: 100px;
-  top: 100px;
+  top: 150px;
   animation: drift 9s ease-in-out infinite,
       floatReverse 6s ease-in-out infinite;
   animation-delay: 0.5s, 1.5s;
@@ -476,14 +476,14 @@ export default {
 
 .bubble-img-4 {
   right: 200px;
-  bottom: 400px;
+  bottom: 500px;
   animation: float 8s ease-in-out infinite;
   animation-delay: 3s;
 }
 
 .bubble-img-5 {
   right: 36px;
-  bottom: 60px;
+  bottom: 200px;
   animation: floatReverse 7s ease-in-out infinite,
       drift 8s ease-in-out infinite;
   animation-delay: 1.5s, 2.5s;
